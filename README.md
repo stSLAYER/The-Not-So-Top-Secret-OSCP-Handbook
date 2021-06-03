@@ -9,9 +9,10 @@ To keep it simple, this handbook contains useful syntax for certain tools (Like 
 Long story short, I created this is Handbook when i first started studying for my OSCP, I got tired of trying to memorize the syntax for certain tools and having to dig through my search history to try and find a certain shell/command I used, so I compiled everything into one cute little CherryTree document, it has Bold headings so I can easily find what I'm looking for and a colorful description to go with it, that being said, I've been using this Handbook since I began my OSCP journey, I just recently passed my OSCP and decided to complete the Handbook as best as I can so i can share it with others to use and yes, it served me well during my exam, anytime I got stuck or needed a reminder on how do enumerate a certain service, the Handbook was there to help me. 
 
 <h3>Do I plan to add more to this Handbook?</h3>
-Oh Absolutely! at the very moment, I have added everything I could think of based on all my notes, howvever I still wouldn't call this Handbook "complete", I purposely left out just a bit of information, not because I'm lazy but because it's how I intended it to be, I want others to use this Handbook almost as a template so that whatever I missed out on, they will feel obligated to add to it and aside from that, I want to keep it simple, it has what i think you'll need when taking on this OSCP journey.
+Oh Absolutely! at the very moment, I have added everything I could think of based on all my notes, howvever I still wouldn't call this Handbook "complete", I purposely left out just a bit of information, not because I'm lazy but because it's how I intended it to be, I want others to use this Handbook almost as a template so that whatever I missed out on, they will feel obligated to add to it and aside from that, I want to keep it simple, it has what I think you'll need when taking on this OSCP journey.
 
+</br>
 
-
-Coming soon
-7 step guide to Buffer Over-flow
+<h3>Coming Soon</h3>
+7 Step Guide to Buffer-Overflow </br>
+Buffer-Overflow Full Guide
