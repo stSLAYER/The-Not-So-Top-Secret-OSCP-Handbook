@@ -13,6 +13,6 @@ Oh Absolutely! at the very moment, I have added everything I could think of base
 
 </br>
 
-<h3>Coming Soon</h3>
-7 Step Guide to Buffer-Overflow </br>
-Buffer-Overflow Full Guide
+_<h3>Coming Soon</h3>_
+_7 Step Guide to Buffer-Overflow </br>
+Buffer-Overflow Full Guide_
