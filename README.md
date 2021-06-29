@@ -1,4 +1,5 @@
-# The-Not-So-Top-Secret-OSCP-Handbook
+# The Not So Top Secret OSCP Handbook
+
 <h3>So...what's in the box?</h3>
 Inside this repository is my OSCP handbook, it's kind of like a cheatsheet in a way...but different. During my time studying through labs such as HackTheBox, VirtualHackingLabs, PWK, PG Proving grounds, etc (The list goes on), I learned some really interesting techniques and came across the same problems over and over again, so I got tired of constantly Googling the same solution, so instead I created a CherryTree document that contains a lot of the stuff I learned from all those labs and summarized it into a more managable and less overwhelming format.
 
