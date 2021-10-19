@@ -28,7 +28,17 @@ For the sake of keeping things neat and tidy, create a new script for each chang
 <h2> STEP 3 Finding The EIP Offset </h2>
 While still using poc2.py, the app should crash at exactly 3000 bytes everytime, while immunity debugger is in its "crashed state", input the following !mona command to find the EIP:
 
-`!mona findmsp -distance 3000`
+`!mona findmsp -distance 3000` </br>
+Take note of the cyclic pattern, this will be the EIP, in this case: </br>
+`cyclic pattern 1545`
+
+
+<h2> STEP 4 Cntrolling The EIP [poc3.py] </h2>
+Create a new script called poc3.py based off poc.py, change the payload buffer to the following:
+
+`buffer = "A" * 1545 + "B" * 4 + "C" * 100` </br>
+what this will do is send a buffer of A's equal to the EIP offset, in this case 1545 bytes, then write 4 B's to the EIP, followed by 100 C's after the EIP, the reason for the 100 C's is to show if there will be enough space for the shell code to be written.
+
 
 
 
