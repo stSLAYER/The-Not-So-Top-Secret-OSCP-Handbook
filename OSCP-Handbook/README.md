@@ -33,11 +33,23 @@ Take note of the cyclic pattern, this will be the EIP, in this case: </br>
 `cyclic pattern 1545`
 
 
-<h2> STEP 4 Cntrolling The EIP [poc3.py] </h2>
-Create a new script called poc3.py based off poc.py, change the payload buffer to the following:
+<h2> STEP 4 Controlling The EIP [poc3.py] </h2>
+Create a new script called <b>poc3.py</b> based off <b>poc.py</b>, change the payload buffer to the following:
 
 `buffer = "A" * 1545 + "B" * 4 + "C" * 100` </br>
 what this will do is send a buffer of A's equal to the EIP offset, in this case 1545 bytes, then write 4 B's to the EIP, followed by 100 C's after the EIP, the reason for the 100 C's is to show if there will be enough space for the shell code to be written.
+
+
+<h2> STEP 5 Finding Bad Characters [poc4.py] </h2>
+Create a new script called <b>poc4.py</b> based off <b>poc.py</b>, a new "badchar" variable must be added to this script, this is where an entire bytearray will be send in order to find bad characters. poc4.py should have a variable that looks like the following:
+
+`
+buffer = "A" * offset + "B" * 4` </br>
+`badchars = "/x00..."`
+
+The contents inside the badchar varaible is a bytearray which can be generated using the following
+
+<h1> coming soon </h1>
 
 
 
