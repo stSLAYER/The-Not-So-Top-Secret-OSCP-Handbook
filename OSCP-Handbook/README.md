@@ -60,7 +60,15 @@ Using the badchars found in the previous step along with !mona, the JMP point ca
 A result similar to this should be displayed: </br>
 `59527682` </br>
 The next step is to take the result above and convert it to <b>little endian format</b>, this can be done by reversing the order and placing it in hex format as shown below: </br>
-`ittle endian = \x83\x66\x52\x56`
+`little endian = \x82\x76\x52\x59` </br>
+The above variable will now be the JMP Point (JMP ESP)
+
+
+<h2> STEP 7 [exploit.py] </h2>
+This is the final script, a few variables need to be added: </br>
+
+# Coming soon
+
 
 
 
